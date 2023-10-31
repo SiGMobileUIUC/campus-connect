@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class FeedScreen extends StatefulWidget {
-  const FeedScreen({super.key});
+class AccountScreen extends StatefulWidget {
+  const AccountScreen({super.key});
 
   @override
-  State<FeedScreen> createState() => _FeedScreenState();
+  State<AccountScreen> createState() => _AccountScreenState();
 }
 
-class _FeedScreenState extends State<FeedScreen> {
+class _AccountScreenState extends State<AccountScreen> {
   @override
   @override
   Widget build(BuildContext context) {

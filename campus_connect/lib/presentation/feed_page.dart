@@ -10,16 +10,6 @@ class FeedScreen extends StatefulWidget {
 class _FeedScreenState extends State<FeedScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Feed'),
-      ),
-      body: const Center(
-        child: Text('Feed'),
-      ),  
-      bottomNavigationBar: BottomNavigationBar(
-        items: [],
-      ),
-    );
+    return const Placeholder();
   }
 }
